@@ -157,6 +157,7 @@ def usedword(usedletter):
 import time
 import random
 import turtle
+wn = turtle.Screen()
 word_file = open("1-10000.txt").read().splitlines()
 turtle.color('purple','orange')
 turtle.begin_fill()
@@ -166,3 +167,4 @@ turtle.speed(7)
 begin = 0
 menu()
 turtle.onscreenclick(game)
+wn.mainloop()
